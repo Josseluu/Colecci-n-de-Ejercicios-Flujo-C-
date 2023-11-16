@@ -14,3 +14,8 @@ int main() {
         std::cerr << "Error: El radio no puede ser negativo." << std::endl;
         return 1;
     }
+  double area = Matematicas::calcularAreaCirculo(radio);
+    std::cout << "El area del circulo con radio " << radio << " es: " << area << std::endl;
+
+    return 0;
+}
